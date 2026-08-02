@@ -7,10 +7,14 @@
   "workspaceFolder": "/home/vscode/app",
   "shutdownAction": "stopCompose",
   "remoteUser": "vscode",
+  "remoteEnv": {
+    "WAKATIME_API_KEY": "${localEnv:WAKATIME_API_KEY}"
+  },
   "customizations": {
     "vscode": {
       "extensions": [
         "Anthropic.claude-code",
+        "WakaTime.vscode-wakatime",
         "ms-vscode.cpptools",
         "ms-vscode.cpptools-extension-pack",
         "ms-vscode.makefile-tools"
